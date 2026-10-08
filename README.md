@@ -2,7 +2,7 @@
   <picture>
     <source srcset="apps/web/public/logo-fullmark.svg" media="(prefers-color-scheme: dark)">
     <source srcset="apps/web/public/logo-light-fullmark.svg" media="(prefers-color-scheme: light)">
-    <img src="apps/web/public/logo-fullmark.svg" alt="Supermemory" width="400" />
+    <img src="apps/web/public/logo-fullmark.svg" alt="MemexOS" width="400" />
   </picture>
 </p>
 
@@ -11,17 +11,17 @@
 </p>
 
 <p align="center">
-  <a href="https://supermemory.ai/docs">Docs</a> ·
-  <a href="https://supermemory.ai/docs/quickstart">Quickstart</a> ·
-  <a href="https://supermemory.ai/docs/self-hosting/overview">Self-host</a> ·
-  <a href="https://console.supermemory.ai">Dashboard</a> ·
-  <a href="https://supermemory.link/discord">Discord</a>
+  <a href="https://MemexOS.ai/docs">Docs</a> ·
+  <a href="https://MemexOS.ai/docs/quickstart">Quickstart</a> ·
+  <a href="https://MemexOS.ai/docs/self-hosting/overview">Self-host</a> ·
+  <a href="https://console.MemexOS.ai">Dashboard</a> ·
+  <a href="https://MemexOS.link/discord">Discord</a>
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/supermemory"><img src="https://img.shields.io/npm/v/supermemory?style=flat-square&color=blue" alt="npm" /></a>
-  <a href="https://pypi.org/project/supermemory/"><img src="https://img.shields.io/pypi/v/supermemory?style=flat-square&color=blue" alt="pypi" /></a>
-  <a href="https://supermemory.ai/docs"><img src="https://img.shields.io/badge/docs-supermemory.ai-blue?style=flat-square" alt="docs" /></a>
+  <a href="https://www.npmjs.com/package/MemexOS"><img src="https://img.shields.io/npm/v/MemexOS?style=flat-square&color=blue" alt="npm" /></a>
+  <a href="https://pypi.org/project/MemexOS/"><img src="https://img.shields.io/pypi/v/MemexOS?style=flat-square&color=blue" alt="pypi" /></a>
+  <a href="https://MemexOS.ai/docs"><img src="https://img.shields.io/badge/docs-MemexOS.ai-blue?style=flat-square" alt="docs" /></a>
 </p>
 
 <p align="center">
@@ -31,16 +31,16 @@
 <p align="center">
   <strong>#1 on every major AI memory benchmark — <a href="https://github.com/xiaowu0162/LongMemEval">LongMemEval</a>, <a href="https://github.com/snap-research/locomo">LoCoMo</a>, and <a href="https://github.com/Salesforce/ConvoMem">ConvoMem</a>.</strong><br/>
   <strong>95% Recall@15 with a 99.4% context reduction · ~50ms user profiles.</strong><br/>
-  <a href="https://supermemory.ai/research">Read the research →</a>
+  <a href="https://MemexOS.ai/research">Read the research →</a>
 </p>
 
 ---
 
-Supermemory is the memory and context layer for AI. **#1 on [LongMemEval](https://github.com/xiaowu0162/LongMemEval), [LoCoMo](https://github.com/snap-research/locomo), and [ConvoMem](https://github.com/Salesforce/ConvoMem)** — the three major benchmarks for AI memory. 
+MemexOS is the memory and context layer for AI. **#1 on [LongMemEval](https://github.com/xiaowu0162/LongMemEval), [LoCoMo](https://github.com/snap-research/locomo), and [ConvoMem](https://github.com/Salesforce/ConvoMem)** — the three major benchmarks for AI memory. 
 
 We are a research lab building the engine, plugins and tools around it.
 
-Your AI forgets everything between conversations. Supermemory fixes that.
+Your AI forgets everything between conversations. MemexOS fixes that.
 
 It automatically learns from conversations, extracts facts, builds user profiles, handles knowledge updates and contradictions, forgets expired information, and delivers the right context at the right time. Full RAG, connectors, file processing — the entire context stack, one system.
 
@@ -59,7 +59,7 @@ All of this is in our single memory structure and ontology.
 
 ---
 
-## Use Supermemory
+## Use MemexOS
 
 <table>
 <tr>
@@ -82,7 +82,7 @@ Add memory, RAG, user profiles, and connectors to your agents and apps with **a 
 
 No vector DB config. No embedding pipelines. No chunking strategies.
 
-**[→ Jump to developer quickstart](#build-with-supermemory-api)**
+**[→ Jump to developer quickstart](#build-with-MemexOS-api)**
 
 </td>
 </tr>
@@ -94,10 +94,10 @@ No vector DB config. No embedding pipelines. No chunking strategies.
 State-of-the-art memory, on your machine. **One binary. Zero config.** Bring any model — or run fully offline with Ollama.
 
 ```bash
-curl -fsSL https://supermemory.ai/install | bash
+curl -fsSL https://MemexOS.ai/install | bash
 ```
 
-**[→ Jump to Supermemory local](#supermemory-local--run-it-yourself)**
+**[→ Jump to MemexOS local](#MemexOS-local--run-it-yourself)**
 
 </td>
 </tr>
@@ -109,43 +109,43 @@ curl -fsSL https://supermemory.ai/install | bash
 
 Plugins and the MCP server give any compatible AI assistant persistent memory. One install, and your AI remembers you.
 
-### Supermemory Plugins
+### MemexOS Plugins
 
-Supermemory comes built with plugins for Claude Code, Muse Code, Cursor, Codex, OpenCode, OpenClaw, and Hermes.
+MemexOS comes built with plugins for Claude Code, Muse Code, Cursor, Codex, OpenCode, OpenClaw, and Hermes.
 
 <img width="844" height="484" alt="image" src="https://github.com/user-attachments/assets/ecb879a2-8652-495d-9228-f305a97ba603" />
 
-These plugins are implementations of the supermemory API, and they are open source! 
+These plugins are implementations of the MemexOS API, and they are open source! 
 
 You can find them here: 
 
-- Claude Code plugin: https://github.com/supermemoryai/claude-supermemory
-- Muse Code plugin: https://github.com/supermemoryai/muse-supermemory
-- Cursor plugin: https://github.com/supermemoryai/cursor-supermemory
-- Codex plugin: https://github.com/supermemoryai/codex-supermemory
-- OpenClaw plugin: https://github.com/supermemoryai/openclaw-supermemory
-- OpenCode plugin: https://github.com/supermemoryai/opencode-supermemory
-- Hermes agent (Supermemory memory provider): https://github.com/NousResearch/hermes-agent
+- Claude Code plugin: https://github.com/MemexOSai/claude-MemexOS
+- Muse Code plugin: https://github.com/MemexOSai/muse-MemexOS
+- Cursor plugin: https://github.com/MemexOSai/cursor-MemexOS
+- Codex plugin: https://github.com/MemexOSai/codex-MemexOS
+- OpenClaw plugin: https://github.com/MemexOSai/openclaw-MemexOS
+- OpenCode plugin: https://github.com/MemexOSai/opencode-MemexOS
+- Hermes agent (MemexOS memory provider): https://github.com/NousResearch/hermes-agent
 
 ### MCP
 
 Server URL:
 
 ```text
-https://mcp.supermemory.ai/mcp
+https://mcp.MemexOS.ai/mcp
 ```
 
 ```json
 {
   "mcpServers": {
-    "supermemory": {
-      "url": "https://mcp.supermemory.ai/mcp"
+    "MemexOS": {
+      "url": "https://mcp.MemexOS.ai/mcp"
     }
   }
 }
 ```
 
-Read more about our MCP here - https://supermemory.ai/docs/supermemory-mcp/mcp
+Read more about our MCP here - https://MemexOS.ai/docs/MemexOS-mcp/mcp
 
 ### What your AI gets
 
@@ -157,10 +157,10 @@ Read more about our MCP here - https://supermemory.ai/docs/supermemory-mcp/mcp
 
 ### How it works
 
-Once installed, Supermemory runs in the background:
+Once installed, MemexOS runs in the background:
 
 1. **You talk to your AI normally.** Share preferences, mention projects, discuss problems.
-2. **Supermemory extracts and stores the important stuff.** Facts, preferences, project context — not noise.
+2. **MemexOS extracts and stores the important stuff.** Facts, preferences, project context — not noise.
 3. **Next conversation, your AI already knows you.** It recalls what you're working on, how you like things, what you discussed before.
 
 Memory is scoped with **projects** (container tags) so you can separate work and personal context, or organize by client, repo, or anything else.
@@ -169,7 +169,7 @@ Memory is scoped with **projects** (container tags) so you can separate work and
 
 **Claude Desktop** · **Cursor** · **Windsurf** · **VS Code** · **Claude Code** · **OpenCode** · **OpenClaw** · **Hermes**
 
-The MCP server is open source — [view the source](https://supermemory.ai/docs/supermemory-mcp/mcp).
+The MCP server is open source — [view the source](https://MemexOS.ai/docs/MemexOS-mcp/mcp).
 
 ### Manual configuration
 
@@ -178,8 +178,8 @@ Add this to your MCP client config:
 ```json
 {
   "mcpServers": {
-    "supermemory": {
-      "url": "https://mcp.supermemory.ai/mcp"
+    "MemexOS": {
+      "url": "https://mcp.MemexOS.ai/mcp"
     }
   }
 }
@@ -187,22 +187,22 @@ Add this to your MCP client config:
 
 ---
 
-## Build with Supermemory (API)
+## Build with MemexOS (API)
 
-If you're building AI agents or apps, Supermemory gives you the entire context stack through one API — memory, RAG, user profiles, connectors, and file processing.
+If you're building AI agents or apps, MemexOS gives you the entire context stack through one API — memory, RAG, user profiles, connectors, and file processing.
 
 ### Install
 
 ```bash
-npm install supermemory    # or: pip install supermemory
+npm install MemexOS    # or: pip install MemexOS
 ```
 
 ### Quickstart
 
 ```typescript
-import Supermemory from "supermemory";
+import MemexOS from "MemexOS";
 
-const client = new Supermemory();
+const client = new MemexOS();
 
 // Store a conversation
 await client.add({
@@ -222,9 +222,9 @@ const { profile, searchResults } = await client.profile({
 ```
 
 ```python
-from supermemory import Supermemory
+from MemexOS import MemexOS
 
-client = Supermemory()
+client = MemexOS()
 
 client.add(
     content="User loves TypeScript and prefers functional patterns",
@@ -237,7 +237,7 @@ print(result.profile.static)   # Long-term facts
 print(result.profile.dynamic)  # Recent context
 ```
 
-Supermemory automatically extracts memories, builds user profiles, and returns relevant context. No embedding pipelines, no vector DB config, no chunking strategies.
+MemexOS automatically extracts memories, builds user profiles, and returns relevant context. No embedding pipelines, no vector DB config, no chunking strategies.
 
 ### Framework integrations
 
@@ -245,12 +245,12 @@ Drop-in wrappers for every major AI framework:
 
 ```typescript
 // Vercel AI SDK
-import { withSupermemory } from "@supermemory/tools/ai-sdk";
-const model = withSupermemory(openai("gpt-4o"), { containerTag: "user_123", customId: "conv-1" });
+import { withMemexOS } from "@MemexOS/tools/ai-sdk";
+const model = withMemexOS(openai("gpt-4o"), { containerTag: "user_123", customId: "conv-1" });
 
 // Mastra
-import { withSupermemory } from "@supermemory/tools/mastra";
-const agent = new Agent(withSupermemory(config, "user-123", { mode: "full" }));
+import { withMemexOS } from "@MemexOS/tools/mastra";
+const agent = new Agent(withMemexOS(config, "user-123", { mode: "full" }));
 ```
 
 **Vercel AI SDK** · **LangChain** · **LangGraph** · **OpenAI Agents SDK** · **Mastra** · **Agno** · **Claude Memory Tool** · **n8n**
@@ -276,7 +276,7 @@ const results = await client.search({
 
 ### User profiles
 
-Traditional memory relies on search — you need to know what to ask for. Supermemory automatically maintains a profile for every user:
+Traditional memory relies on search — you need to know what to ask for. MemexOS automatically maintains a profile for every user:
 
 ```typescript
 const { profile } = await client.profile({ containerTag: "user_123" });
@@ -307,28 +307,28 @@ Real-time webhooks. Documents automatically processed, chunked, and searchable.
 | `client.documents.list()` | List and filter documents |
 | `client.settings.update()` | Configure memory extraction and chunking |
 
-Full API reference → [supermemory.ai/docs](https://supermemory.ai/docs)
+Full API reference → [MemexOS.ai/docs](https://MemexOS.ai/docs)
 
 ---
 
-## Supermemory local — run it yourself
+## MemexOS local — run it yourself
 
 State-of-the-art memory, on your machine. One binary. Zero config.
 
 ```bash
-curl -fsSL https://supermemory.ai/install | bash
+curl -fsSL https://MemexOS.ai/install | bash
 # or
-npx supermemory local
+npx MemexOS local
 ```
 
 ```bash
-supermemory-server
+MemexOS-server
 ```
 
-First boot sets up the embedded Supermemory graph engine, local embeddings, and your credentials, then prints an API key. The full Memory API — documents, memories, user profiles, hybrid search — runs against `http://localhost:6767`.
+First boot sets up the embedded MemexOS graph engine, local embeddings, and your credentials, then prints an API key. The full Memory API — documents, memories, user profiles, hybrid search — runs against `http://localhost:6767`.
 
 ```typescript
-const client = new Supermemory({
+const client = new MemexOS({
   apiKey: "sm_...",
   baseURL: "http://localhost:6767", // that's the only change
 });
@@ -336,17 +336,17 @@ const client = new Supermemory({
 
 - **Bring any model** — OpenAI, Anthropic, Gemini, Groq, or any OpenAI-compatible endpoint. An interactive wizard walks you through it on first boot.
 - **Embeddings** — local `Xenova/bge-base-en-v1.5` by default (no API key); optionally OpenAI, Gemini, or Ollama. Same provider stack as cloud.
-- **Offline text memories if you want** — point it at Ollama (`gpt-oss:20b` works great), disable telemetry with `SUPERMEMORY_DISABLE_TELEMETRY=1`, and use local text or file inputs after the first embedding-model download. URL ingestion uses a hosted reader service.
-- **Your data, one directory** — everything lives in `./.supermemory`, easy to back up or move.
+- **Offline text memories if you want** — point it at Ollama (`gpt-oss:20b` works great), disable telemetry with `MemexOS_DISABLE_TELEMETRY=1`, and use local text or file inputs after the first embedding-model download. URL ingestion uses a hosted reader service.
+- **Your data, one directory** — everything lives in `./.MemexOS`, easy to back up or move.
 - **Same API as the platform** — prototype locally, ship on the hosted platform by changing `baseURL`.
 
-Read the [self-hosting docs](https://supermemory.ai/docs/self-hosting/overview) — quickstart, [configuration](https://supermemory.ai/docs/self-hosting/configuration), [embeddings](https://supermemory.ai/docs/self-hosting/embeddings), and [local vs. Enterprise](https://supermemory.ai/docs/self-hosting/local-vs-enterprise).
+Read the [self-hosting docs](https://MemexOS.ai/docs/self-hosting/overview) — quickstart, [configuration](https://MemexOS.ai/docs/self-hosting/configuration), [embeddings](https://MemexOS.ai/docs/self-hosting/embeddings), and [local vs. Enterprise](https://MemexOS.ai/docs/self-hosting/local-vs-enterprise).
 
 ---
 
 ## Benchmarks
 
-Supermemory is state of the art across all major AI memory benchmarks:
+MemexOS is state of the art across all major AI memory benchmarks:
 
 | Benchmark | What it measures | Result |
 |---|---|---|
@@ -354,25 +354,25 @@ Supermemory is state of the art across all major AI memory benchmarks:
 | **[LoCoMo](https://github.com/snap-research/locomo)** | Fact recall across extended conversations (single-hop, multi-hop, temporal, adversarial) | **#1** |
 | **[ConvoMem](https://github.com/Salesforce/ConvoMem)** | Personalization and preference learning | **#1** |
 
-On LongMemEval, supermemory reaches **95% Recall@15 while adding only ~720 tokens of context — a 99.4% context reduction** (99.6% at @10, 99.8% at @5). Recall by category: Knowledge Updates 99%, Assistant recall 100%, User recall 97%, Multi-session 93%, Temporal Reasoning 91%, Preference 90%.
+On LongMemEval, MemexOS reaches **95% Recall@15 while adding only ~720 tokens of context — a 99.4% context reduction** (99.6% at @10, 99.8% at @5). Recall by category: Knowledge Updates 99%, Assistant recall 100%, User recall 97%, Multi-session 93%, Temporal Reasoning 91%, Preference 90%.
 
-We also built the **Supermemory Filesystem (SMFS)**, which uses **3.0× fewer tokens on Claude** (24M vs 72M) and **1.75× fewer on Codex** across the 110-question xAFS benchmark. See the full write-ups on our [research page](https://supermemory.ai/research).
+We also built the **MemexOS Filesystem (SMFS)**, which uses **3.0× fewer tokens on Claude** (24M vs 72M) and **1.75× fewer on Codex** across the 110-question xAFS benchmark. See the full write-ups on our [research page](https://MemexOS.ai/research).
 
-We also built **[MemoryBench](https://supermemory.ai/docs/memorybench/overview)** — an open-source framework for standardized, reproducible benchmarks of memory providers. Compare Supermemory, Mem0, Zep, and others head-to-head:
+We also built **[MemoryBench](https://MemexOS.ai/docs/memorybench/overview)** — an open-source framework for standardized, reproducible benchmarks of memory providers. Compare MemexOS, Mem0, Zep, and others head-to-head:
 
 ```bash
-bun run src/index.ts run -p supermemory -b longmemeval -j gpt-4o -r my-run
+bun run src/index.ts run -p MemexOS -b longmemeval -j gpt-4o -r my-run
 ```
 
 ### Benchmarking your own memory solution
 
-We provide an Agent skill for companies to benchmark their own context and memory solutions against supermemory.
+We provide an Agent skill for companies to benchmark their own context and memory solutions against MemexOS.
 
 ```
-npx skills add supermemoryai/memorybench
+npx skills add MemexOSai/memorybench
 ```
 
-Simply run this and do `/benchmark-context` - Supermemory will automatically do the work for you!
+Simply run this and do `/benchmark-context` - MemexOS will automatically do the work for you!
 
 ---
 
@@ -381,7 +381,7 @@ Simply run this and do `/benchmark-context` - Supermemory will automatically do 
 ```
 Your app / AI tool
         ↓
-   Supermemory
+   MemexOS
         │
         ├── Memory Engine     Extracts facts, tracks updates, resolves contradictions,
         │                     auto-forgets expired info
@@ -391,21 +391,21 @@ Your app / AI tool
         └── File Processing   PDFs, images, videos, code → searchable chunks
 ```
 
-**Memory is not RAG.** RAG retrieves document chunks — stateless, same results for everyone. Memory extracts and tracks *facts about users* over time. It understands that "I just moved to SF" supersedes "I live in NYC." Supermemory runs both together by default, so you get knowledge base retrieval *and* personalized context in every query. Read more about this here - https://supermemory.ai/docs/concepts/memory-vs-rag
+**Memory is not RAG.** RAG retrieves document chunks — stateless, same results for everyone. Memory extracts and tracks *facts about users* over time. It understands that "I just moved to SF" supersedes "I live in NYC." MemexOS runs both together by default, so you get knowledge base retrieval *and* personalized context in every query. Read more about this here - https://MemexOS.ai/docs/concepts/memory-vs-rag
 
-**Automatic forgetting.** Supermemory knows when memories become irrelevant. Temporary facts ("I have an exam tomorrow") expire after the date passes. Contradictions are resolved automatically. Noise never becomes permanent memory.
+**Automatic forgetting.** MemexOS knows when memories become irrelevant. Temporary facts ("I have an exam tomorrow") expire after the date passes. Contradictions are resolved automatically. Noise never becomes permanent memory.
 
 ---
 
 ## Links
 
-- 📖 [Documentation](https://supermemory.ai/docs)
-- 🚀 [Quickstart](https://supermemory.ai/docs/quickstart)
-- 🖥️ [Self-hosting (Supermemory local)](https://supermemory.ai/docs/self-hosting/overview)
-- 🧪 [MemoryBench](https://supermemory.ai/docs/memorybench/overview)
-- 🔌 [Integrations](https://supermemory.ai/docs/integrations)
-- 💬 [Discord](https://supermemory.link/discord)
-- 𝕏 [Twitter](https://twitter.com/supermemory)
+- 📖 [Documentation](https://MemexOS.ai/docs)
+- 🚀 [Quickstart](https://MemexOS.ai/docs/quickstart)
+- 🖥️ [Self-hosting (MemexOS local)](https://MemexOS.ai/docs/self-hosting/overview)
+- 🧪 [MemoryBench](https://MemexOS.ai/docs/memorybench/overview)
+- 🔌 [Integrations](https://MemexOS.ai/docs/integrations)
+- 💬 [Discord](https://MemexOS.link/discord)
+- 𝕏 [Twitter](https://twitter.com/MemexOS)
 
 ---
 
